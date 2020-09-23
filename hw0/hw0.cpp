@@ -86,11 +86,14 @@ int main() {
 
 
 	std::ofstream myfile;
-  myfile.open("data.txt");
+	myfile.open("data2.txt");
 	int n = 101;
 	for (int i=0; i<n; i++){
-		double theta_3 = -M_PI/2 + i*M_PI/(n-1);
-		robot->_q << 0, 0.5, theta_3;
+		//double d_2 = 0;
+		double d_2 = i*2.0/(n-1);
+		//double theta_3 = -M_PI/2 + i*M_PI/(n-1);
+		double theta_3 = 0;
+		robot->_q << d_2, 0.5, theta_3;
 		robot->_dq << 0, 0, 0;
 
 		redis_client.setEigenMatrixJSON(JOINT_ANGLES_KEY,robot->_q);
@@ -109,7 +112,7 @@ int main() {
 		robot->Jv(ee_jacobian,ee_link_name,ee_pos_in_link);
 
 		robot->gravityVector(g);
-		myfile << theta_3*180/M_PI << "," << robot->_M(0,0) << "," << robot->_M(1,1) << "," << robot->_M(2,2) << ","
+		myfile << d_2 << "," << robot->_M(0,0) << "," << robot->_M(1,1) << "," << robot->_M(2,2) << ","
 		<< g(0) << "," << g(1) << "," << g(2) << "\n" ;
 
 	}
