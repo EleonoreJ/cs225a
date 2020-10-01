@@ -1,0 +1,17 @@
+/home/elejrv/cs225a/hw1/CMakeFiles/edit_cache.dir
+/home/elejrv/cs225a/hw1/CMakeFiles/rebuild_cache.dir
+/home/elejrv/cs225a/hw1/lecture2_demo/CMakeFiles/rebuild_cache.dir
+/home/elejrv/cs225a/hw1/lecture2_demo/CMakeFiles/edit_cache.dir
+/home/elejrv/cs225a/hw1/lecture2_demo/CMakeFiles/simviz.dir
+/home/elejrv/cs225a/hw1/lecture2_demo/CMakeFiles/visualization.dir
+/home/elejrv/cs225a/hw1/lecture2_demo/CMakeFiles/simulation.dir
+/home/elejrv/cs225a/hw1/lecture2_demo/CMakeFiles/controller.dir
+/home/elejrv/cs225a/hw1/hw0/CMakeFiles/edit_cache.dir
+/home/elejrv/cs225a/hw1/hw0/CMakeFiles/hw0_viz.dir
+/home/elejrv/cs225a/hw1/hw0/CMakeFiles/rebuild_cache.dir
+/home/elejrv/cs225a/hw1/hw0/CMakeFiles/hw0.dir
+/home/elejrv/cs225a/hw1/hw1/CMakeFiles/edit_cache.dir
+/home/elejrv/cs225a/hw1/hw1/CMakeFiles/hw1.dir
+/home/elejrv/cs225a/hw1/hw1/CMakeFiles/simviz_hw1.dir
+/home/elejrv/cs225a/hw1/hw1/CMakeFiles/simviz_hw1_slow.dir
+/home/elejrv/cs225a/hw1/hw1/CMakeFiles/rebuild_cache.dir
